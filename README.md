@@ -90,5 +90,12 @@ CLOUDINARY_API_SECRET=...
 
 NODE_ENV=development
 ```
+## OUTPUT:
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/2db98de6-2484-4f23-92cb-81b8404aa0c3" />
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/2db98de6-2484-4f23-92cb-81b8404aa0c3" width="200"  alt="Image" />
+  <img src="" width="200"  alt="Image" />
+  <img src="" width="200"  alt="Image" />
+</p>
 
 
