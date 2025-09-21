@@ -67,32 +67,51 @@ A modern **real-time chat application** built with the MERN stack, enabling user
 
 ## ⚡ Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/ritesh-bhamdare/REAL-TIME-CHAT-APPLICATION.git
 
 ```
-2. Navigate to the backend folder and install dependencies.
-3. Navigate to the frontend folder and install dependencies.
-4. Create a .env file in the backend folder
-5. Start the development servers
 
-### Setup .env file
+2. **Navigate to the backend folder and install dependencies:**
 
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
+```bash
+cd REAL-TIME-CHAT-APPLICATION/server
+npm install
+```
+3. **Navigate to the frontend folder and install dependencies:**
+```bash
+cd ../client
+npm install
+```
+4. **Create a .env file in the backend folder with the following variables:**
+```bash
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
 
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
 
 NODE_ENV=development
 ```
+5. **Start the development servers:**
+
+- Backend server:
+```bash
+cd ../server
+npm run server
+```
+- Frontend server:
+```bash
+cd ../client
+npm run dev
+```
+
 ## OUTPUT:
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/2db98de6-2484-4f23-92cb-81b8404aa0c3" width="200"  alt="Image" />
-  <img src="https://github.com/user-attachments/assets/aeb3915a-322b-4e63-9c28-f92926707dda" width="200"  alt="Image" />
-  <img src="https://github.com/user-attachments/assets/4422b5b8-c0b9-4a57-97e1-d4719e33a080" width="200"  alt="Image" />
+<p float="left" align="center">
+  <img src="https://github.com/user-attachments/assets/2db98de6-2484-4f23-92cb-81b8404aa0c3" width="300"  alt="Image" />
+  <img src="https://github.com/user-attachments/assets/aeb3915a-322b-4e63-9c28-f92926707dda" width="300"  alt="Image" />
+  <img src="https://github.com/user-attachments/assets/4422b5b8-c0b9-4a57-97e1-d4719e33a080" width="300"  alt="Image" />
 </p>
